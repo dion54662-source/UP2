@@ -1,0 +1,43 @@
+[2026-06-08 09:41:36.791] [INFO] ℹ️ INFO [LoginDialog.LoginDialog] Диалог авторизации создан
+[2026-06-08 09:41:45.830] [INFO] ℹ️ INFO [LoginDialog.login] Попытка входа пользователя: admin
+[2026-06-08 09:41:46.404] [INFO] ℹ️ INFO [LoginDialog.login] Пользователь admin успешно вошел в систему
+[2026-06-08 09:41:46.405] [INFO] ℹ️ INFO [Logger.userAction] Пользователь [admin] выполнил: Вход в систему
+[2026-06-08 09:41:46.852] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] 🐞 Панель отладки загружена
+[2026-06-08 09:41:46.853] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] Доступные команды: help, test_db, test_perf, clear, gc, stats
+[2026-06-08 09:41:46.854] [INFO] ℹ️ INFO [MainFrame.MainFrame] Панель отладки добавлена (режим администратора)
+[2026-06-08 09:41:46.855] [INFO] ℹ️ INFO [MainFrame.MainFrame] Режим ADMIN: все функции доступны
+[2026-06-08 09:41:46.865] [INFO] ℹ️ INFO [MainFrame.MainFrame] Приложение запущено пользователем: admin
+[2026-06-08 09:41:56.202] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] 🔍 Тестирование базы данных...
+[2026-06-08 09:41:56.222] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → Проверка подключения к БД...
+[2026-06-08 09:41:56.235] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   ✅ Подключение успешно
+[2026-06-08 09:41:56.248] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → Тест поиска товара...
+[2026-06-08 09:41:56.261] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   ✅ Найден товар: Ноутбук Lenovo
+[2026-06-08 09:41:56.273] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → Получение списка товаров...
+[2026-06-08 09:41:56.285] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   ✅ Загружено товаров: 8
+[2026-06-08 09:41:56.298] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] ✅ Тест БД завершен за 81 ms
+[2026-06-08 09:41:58.324] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] ⚡ Запуск теста производительности...
+[2026-06-08 09:41:58.369] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → 100 поисковых запросов: 24 ms
+[2026-06-08 09:41:58.392] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → 50 получений списка товаров: 10 ms
+[2026-06-08 09:41:58.444] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → 50 получений истории: 42 ms
+[2026-06-08 09:41:58.445] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] ✅ Тест производительности завершен
+[2026-06-08 09:42:02.745] [INFO] ℹ️ INFO [TestDataGenerator.generateProducts] Генерация 10 тестовых товаров
+[2026-06-08 09:42:02.788] [INFO] ℹ️ INFO [TestDataGenerator.generateProducts] Сгенерировано 10 товаров из 10
+[2026-06-08 09:42:02.801] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] ✅ Сгенерировано 10 тестовых товаров
+[2026-06-08 09:43:15.420] [INFO] ℹ️ INFO [Logger.setLogLevel] Уровень логирования изменен на: DEBUG
+[2026-06-08 09:43:15.422] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] Уровень логирования изменен на: DEBUG
+[2026-06-08 09:43:21.612] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] 🔍 Тестирование базы данных...
+[2026-06-08 09:43:21.627] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → Проверка подключения к БД...
+[2026-06-08 09:43:21.628] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   ✅ Подключение успешно
+[2026-06-08 09:43:21.628] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → Тест поиска товара...
+[2026-06-08 09:43:21.629] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   ✅ Найден товар: Ноутбук Lenovo
+[2026-06-08 09:43:21.630] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → Получение списка товаров...
+[2026-06-08 09:43:21.630] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   ✅ Загружено товаров: 18
+[2026-06-08 09:43:21.630] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] ✅ Тест БД завершен за 1 ms
+[2026-06-08 09:43:23.058] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] ⚡ Запуск теста производительности...
+[2026-06-08 09:43:23.079] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → 100 поисковых запросов: 6 ms
+[2026-06-08 09:43:23.080] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → 50 получений списка товаров: 5 ms
+[2026-06-08 09:43:23.081] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug]   → 50 получений истории: 8 ms
+[2026-06-08 09:43:23.081] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] ✅ Тест производительности завершен
+[2026-06-08 09:43:28.485] [INFO] ℹ️ INFO [TestDataGenerator.generateProducts] Генерация 5 тестовых товаров
+[2026-06-08 09:43:28.527] [INFO] ℹ️ INFO [TestDataGenerator.generateProducts] Сгенерировано 5 товаров из 5
+[2026-06-08 09:43:28.528] [DEBUG] 🐛 DEBUG [DebugPanel.appendDebug] ✅ Сгенерировано 5 тестовых товаров
